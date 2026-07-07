@@ -7,8 +7,8 @@ jobs:
 
     steps:
       - checkout
-      - run: make depss
-      - run: make testt
+      - run: make deps
+      - run: make test
 workflows:
   basic:
     jobs:
